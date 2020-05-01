@@ -5,26 +5,64 @@
 	// text-align: center;
 	border-bottom: 2px solid black;
 	padding: 20px;
+	font-family: sans-serif;
 }
 
+// .hr {
+// 	color: black;
+// }
+
 @font-face {
-  font-family: myFirstFont;
-  src: url(Chomsky.otf);
+  font-family: Chomsky;
+  src: url(Chomsky.woff);
 }
 
 .logo {
 	font-size: 3.333em;
-	font-family: myFirstFont;
-	
+	font-family: Chomsky;
 }
 
-.nav-code .code {
-	background: red;
+.code {
+	// background: white;
 	display: inline-block;
 	padding: 5px;
+	// border: 1px solid black;
 }
 
-.nav .nav-item{
-	background: burlywood;
-	display: inline-block;
+.nav-code {
+	border: 1px solid grey;
+	border-bottom: 0px;
 }
+
+
+
+.nav .nav-item{
+	// background: burlywood;
+	display: inline-block;
+	margin-right: 10px;
+	border-left: 1px solid grey;
+	padding-left: 10px;
+}
+
+// .Tue {
+// 	border-left: 1px solid black;
+// }
+
+.nav .nav-item i {
+	margin-right: 5px;
+}
+
+.code:hover {
+	text-decoration: underline;
+}
+
+
+.deg:hover,
+.stock:hover {
+	color: green;
+}
+
+.nav-span:hover {
+	text-decoration: underline;
+}
+
